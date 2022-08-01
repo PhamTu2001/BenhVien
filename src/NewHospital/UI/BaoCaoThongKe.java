@@ -30,7 +30,7 @@ public class BaoCaoThongKe extends javax.swing.JInternalFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblBaoCaoThongKe = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        cboBoLoc = new javax.swing.JComboBox<>();
         jPanel4 = new javax.swing.JPanel();
         btnCong1 = new javax.swing.JButton();
         btnCuoi = new javax.swing.JButton();
@@ -88,7 +88,7 @@ public class BaoCaoThongKe extends javax.swing.JInternalFrame {
         jLabel1.setText("BÁO CÁO THỐNG KÊ");
         jLabel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Bộ lọc thông tin cần tìm", "Báo Cáo Doanh Thu ", "Báo Cáo Nhân Viên Làm Việc", "Báo Cáo Danh Sách Trang Thiết Bị", "Báo Cáo Thuốc" }));
+        cboBoLoc.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Bộ lọc thông tin cần tìm", "Báo Cáo Doanh Thu ", "Báo Cáo Nhân Viên Làm Việc", "Báo Cáo Danh Sách Trang Thiết Bị", "Báo Cáo Thuốc" }));
 
         btnCong1.setBackground(new java.awt.Color(51, 204, 255));
         btnCong1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -157,7 +157,7 @@ public class BaoCaoThongKe extends javax.swing.JInternalFrame {
                 .addGroup(PanelThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 751, Short.MAX_VALUE)
-                    .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(cboBoLoc, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -167,7 +167,7 @@ public class BaoCaoThongKe extends javax.swing.JInternalFrame {
                 .addGap(14, 14, 14)
                 .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cboBoLoc, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 339, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -212,7 +212,7 @@ public class BaoCaoThongKe extends javax.swing.JInternalFrame {
     private javax.swing.JButton btnCuoi;
     private javax.swing.JButton btnDau;
     private javax.swing.JButton btnTru1;
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> cboBoLoc;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane1;

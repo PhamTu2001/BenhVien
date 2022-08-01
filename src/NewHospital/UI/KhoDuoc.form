@@ -101,13 +101,13 @@
                               <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Component id="jButton9" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="bntCuoi" min="-2" pref="52" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton8" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="bntTru1" min="-2" pref="52" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton7" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="bntCong1" min="-2" pref="52" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton6" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="bntDau" min="-2" pref="52" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -120,10 +120,10 @@
                           <Component id="jScrollPane3" min="-2" pref="180" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jButton6" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jButton7" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jButton9" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jButton8" alignment="0" max="32767" attributes="0"/>
+                              <Component id="bntDau" alignment="1" max="32767" attributes="0"/>
+                              <Component id="bntCong1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="bntCuoi" alignment="0" max="32767" attributes="0"/>
+                              <Component id="bntTru1" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -387,35 +387,35 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="jButton6">
+                <Component class="javax.swing.JButton" name="bntDau">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/NewHospital/Icons/cuoi.png"/>
                     </Property>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton7">
+                <Component class="javax.swing.JButton" name="bntCong1">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/NewHospital/Icons/tien.png"/>
                     </Property>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton8">
+                <Component class="javax.swing.JButton" name="bntTru1">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/NewHospital/Icons/lui.png"/>
                     </Property>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton9">
+                <Component class="javax.swing.JButton" name="bntCuoi">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/NewHospital/Icons/dau.png"/>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bntCuoiActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -468,16 +468,16 @@
                                           <Component id="jLabel8" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
                                           <Component id="jLabel9" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
                                           <Component id="txtHoVaTen" alignment="0" pref="274" max="32767" attributes="0"/>
-                                          <Component id="txtHoVaTen1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtNgaySinh" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtNgayNhap" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtMaThuoc1" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="jLabel12" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
                                           <Component id="jLabel10" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
-                                          <Component id="txtNgaySinh1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtHoVaTen3" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtHoVaTen2" alignment="0" min="-2" pref="276" max="-2" attributes="0"/>
+                                          <Component id="txtSoLuong1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtHanSuDung" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtNgayXuat" alignment="0" min="-2" pref="276" max="-2" attributes="0"/>
                                           <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -500,7 +500,7 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <Component id="jLabel1" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="txtNgaySinh" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="txtMaThuoc1" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabel8" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
@@ -512,17 +512,17 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <Component id="jLabel12" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="txtNgaySinh1" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="txtSoLuong1" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabel11" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="txtHoVaTen3" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="txtHanSuDung" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabel10" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="txtHoVaTen2" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
-                                          <Component id="txtHoVaTen1" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Component id="txtNgayXuat" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Component id="txtNgayNhap" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -658,7 +658,7 @@
                         <Property name="text" type="java.lang.String" value="T&#xea;n Thu&#x1ed1;c"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="txtNgaySinh">
+                    <Component class="javax.swing.JTextField" name="txtMaThuoc1">
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtHoVaTen">
                       <Events>
@@ -679,12 +679,12 @@
                         <Property name="text" type="java.lang.String" value="Ng&#xe0;y nh&#x1ead;p"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="txtHoVaTen1">
+                    <Component class="javax.swing.JTextField" name="txtNgayNhap">
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtHoVaTen1ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNgayNhapActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="txtHoVaTen2">
+                    <Component class="javax.swing.JTextField" name="txtNgayXuat">
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel10">
                       <Properties>
@@ -700,7 +700,7 @@
                         <Property name="text" type="java.lang.String" value="Ng&#xe0;y xu&#x1ea5;t"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="txtHoVaTen3">
+                    <Component class="javax.swing.JTextField" name="txtHanSuDung">
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel11">
                       <Properties>
@@ -716,7 +716,7 @@
                         <Property name="text" type="java.lang.String" value="H&#x1ea1;n s&#x1eed; d&#x1ee5;ng"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="txtNgaySinh1">
+                    <Component class="javax.swing.JTextField" name="txtSoLuong1">
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel12">
                       <Properties>
@@ -753,7 +753,7 @@
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                       <SubComponents>
-                        <Component class="javax.swing.JTextArea" name="jTextArea1">
+                        <Component class="javax.swing.JTextArea" name="txtGhiChu1">
                           <Properties>
                             <Property name="columns" type="int" value="20"/>
                             <Property name="rows" type="int" value="5"/>

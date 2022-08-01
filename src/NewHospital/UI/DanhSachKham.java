@@ -41,14 +41,14 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
         txtTimKiem = new javax.swing.JTextField();
         btnTimKiem = new javax.swing.JToggleButton();
         btnThem1 = new javax.swing.JButton();
-        btnXoa2 = new javax.swing.JToggleButton();
-        btnSua2 = new javax.swing.JToggleButton();
+        btnXoa1 = new javax.swing.JToggleButton();
+        btnSua1 = new javax.swing.JToggleButton();
         pnlThongTin = new javax.swing.JPanel();
         txtHoTen = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        txtEmail = new javax.swing.JTextField();
-        txtNgaySinh = new javax.swing.JTextField();
+        txtSTT = new javax.swing.JTextField();
+        txtCMND = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         txtSDT = new javax.swing.JTextField();
@@ -60,12 +60,12 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
         txtTrieuChung = new javax.swing.JTextArea();
         rdoDatLichTruoc = new javax.swing.JRadioButton();
         rdoKhamTrucTiep = new javax.swing.JRadioButton();
-        txtNgayKham = new javax.swing.JTextField();
+        txtLichKham = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        btnXoa1 = new javax.swing.JToggleButton();
-        btnSua1 = new javax.swing.JToggleButton();
+        btnXoa = new javax.swing.JToggleButton();
+        btnSua = new javax.swing.JToggleButton();
         btnThem = new javax.swing.JButton();
-        txtNgaySinh1 = new javax.swing.JTextField();
+        txtMaBN = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
 
         setClosable(true);
@@ -168,22 +168,22 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
             }
         });
 
-        btnXoa2.setBackground(new java.awt.Color(255, 204, 204));
-        btnXoa2.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        btnXoa2.setForeground(new java.awt.Color(255, 0, 0));
-        btnXoa2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/delete.png"))); // NOI18N
-        btnXoa2.setText("Xóa");
-        btnXoa2.addActionListener(new java.awt.event.ActionListener() {
+        btnXoa1.setBackground(new java.awt.Color(255, 204, 204));
+        btnXoa1.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnXoa1.setForeground(new java.awt.Color(255, 0, 0));
+        btnXoa1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/delete.png"))); // NOI18N
+        btnXoa1.setText("Xóa");
+        btnXoa1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnXoa2ActionPerformed(evt);
+                btnXoa1ActionPerformed(evt);
             }
         });
 
-        btnSua2.setBackground(new java.awt.Color(102, 204, 255));
-        btnSua2.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        btnSua2.setForeground(new java.awt.Color(0, 153, 153));
-        btnSua2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/update.png"))); // NOI18N
-        btnSua2.setText("Sửa");
+        btnSua1.setBackground(new java.awt.Color(102, 204, 255));
+        btnSua1.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnSua1.setForeground(new java.awt.Color(0, 153, 153));
+        btnSua1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/update.png"))); // NOI18N
+        btnSua1.setText("Sửa");
 
         javax.swing.GroupLayout pnlDanhSachLayout = new javax.swing.GroupLayout(pnlDanhSach);
         pnlDanhSach.setLayout(pnlDanhSachLayout);
@@ -194,9 +194,9 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                 .addGap(36, 36, 36)
                 .addComponent(btnThem1)
                 .addGap(18, 18, 18)
-                .addComponent(btnXoa2)
+                .addComponent(btnXoa1)
                 .addGap(18, 18, 18)
-                .addComponent(btnSua2)
+                .addComponent(btnSua1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnCuoi, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -226,8 +226,8 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                         .addComponent(btnCuoi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnDau, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(pnlDanhSachLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnXoa2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btnSua2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnXoa1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnSua1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(btnThem1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(49, 49, 49))
         );
@@ -251,9 +251,9 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/Numbered list.png"))); // NOI18N
         jLabel5.setText("STT");
 
-        txtEmail.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        txtSTT.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
 
-        txtNgaySinh.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        txtCMND.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/Calendar.png"))); // NOI18N
@@ -299,9 +299,9 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
             }
         });
 
-        txtNgayKham.addActionListener(new java.awt.event.ActionListener() {
+        txtLichKham.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNgayKhamActionPerformed(evt);
+                txtLichKhamActionPerformed(evt);
             }
         });
 
@@ -309,22 +309,22 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/User group.png"))); // NOI18N
         jLabel2.setText("Mã bệnh nhân");
 
-        btnXoa1.setBackground(new java.awt.Color(255, 204, 204));
-        btnXoa1.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        btnXoa1.setForeground(new java.awt.Color(255, 0, 0));
-        btnXoa1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/delete.png"))); // NOI18N
-        btnXoa1.setText("Xóa");
-        btnXoa1.addActionListener(new java.awt.event.ActionListener() {
+        btnXoa.setBackground(new java.awt.Color(255, 204, 204));
+        btnXoa.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnXoa.setForeground(new java.awt.Color(255, 0, 0));
+        btnXoa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/delete.png"))); // NOI18N
+        btnXoa.setText("Xóa");
+        btnXoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnXoa1ActionPerformed(evt);
+                btnXoaActionPerformed(evt);
             }
         });
 
-        btnSua1.setBackground(new java.awt.Color(102, 204, 255));
-        btnSua1.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        btnSua1.setForeground(new java.awt.Color(0, 153, 153));
-        btnSua1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/update.png"))); // NOI18N
-        btnSua1.setText("Sửa");
+        btnSua.setBackground(new java.awt.Color(102, 204, 255));
+        btnSua.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnSua.setForeground(new java.awt.Color(0, 153, 153));
+        btnSua.setIcon(new javax.swing.ImageIcon(getClass().getResource("/NewHospital/Icons/update.png"))); // NOI18N
+        btnSua.setText("Sửa");
 
         btnThem.setBackground(new java.awt.Color(153, 255, 153));
         btnThem.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
@@ -337,7 +337,7 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
             }
         });
 
-        txtNgaySinh1.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        txtMaBN.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
 
         javax.swing.GroupLayout pnlThongTinLayout = new javax.swing.GroupLayout(pnlThongTin);
         pnlThongTin.setLayout(pnlThongTinLayout);
@@ -361,7 +361,7 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
                         .addComponent(jLabel5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtSTT, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane2)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlThongTinLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -375,15 +375,15 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                         .addGap(55, 339, Short.MAX_VALUE))
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
                         .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtNgayKham, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNgaySinh, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtLichKham, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCMND, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(pnlThongTinLayout.createSequentialGroup()
                                 .addComponent(btnThem)
                                 .addGap(18, 18, 18)
-                                .addComponent(btnXoa1)
+                                .addComponent(btnXoa)
                                 .addGap(18, 18, 18)
-                                .addComponent(btnSua1))
-                            .addComponent(txtNgaySinh1, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(btnSua))
+                            .addComponent(txtMaBN, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(pnlThongTinLayout.createSequentialGroup()
@@ -401,17 +401,17 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                     .addComponent(jLabel4)
                     .addComponent(txtHoTen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5)
-                    .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtSTT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
-                    .addComponent(txtNgaySinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtCMND, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7)
                     .addComponent(txtSDT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(txtNgaySinh1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtMaBN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
@@ -419,7 +419,7 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                 .addGap(15, 15, 15)
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
-                    .addComponent(txtNgayKham))
+                    .addComponent(txtLichKham))
                 .addGap(11, 11, 11)
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -432,8 +432,8 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnThem, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnXoa1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btnSua1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnXoa, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnSua, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
 
@@ -505,9 +505,9 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_rdoKhamTrucTiepActionPerformed
 
-    private void btnXoa1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoa1ActionPerformed
+    private void btnXoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnXoa1ActionPerformed
+    }//GEN-LAST:event_btnXoaActionPerformed
 
     private void btnThemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemActionPerformed
         // TODO add your handling code here:
@@ -517,13 +517,13 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnThem1ActionPerformed
 
-    private void btnXoa2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoa2ActionPerformed
+    private void btnXoa1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoa1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnXoa2ActionPerformed
+    }//GEN-LAST:event_btnXoa1ActionPerformed
 
-    private void txtNgayKhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNgayKhamActionPerformed
+    private void txtLichKhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLichKhamActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtNgayKhamActionPerformed
+    }//GEN-LAST:event_txtLichKhamActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -531,14 +531,14 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
     private javax.swing.JButton btnCong1;
     private javax.swing.JButton btnCuoi;
     private javax.swing.JButton btnDau;
+    private javax.swing.JToggleButton btnSua;
     private javax.swing.JToggleButton btnSua1;
-    private javax.swing.JToggleButton btnSua2;
     private javax.swing.JButton btnThem;
     private javax.swing.JButton btnThem1;
     private javax.swing.JToggleButton btnTimKiem;
     private javax.swing.JButton btnTru1;
+    private javax.swing.JToggleButton btnXoa;
     private javax.swing.JToggleButton btnXoa1;
-    private javax.swing.JToggleButton btnXoa2;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JComboBox<String> cboLoaiKham;
@@ -560,12 +560,12 @@ public class DanhSachKham extends javax.swing.JInternalFrame {
     private javax.swing.JRadioButton rdoDatLichTruoc;
     private javax.swing.JRadioButton rdoKhamTrucTiep;
     private javax.swing.JTable tblKhamBenh;
-    private javax.swing.JTextField txtEmail;
+    private javax.swing.JTextField txtCMND;
     private javax.swing.JTextField txtHoTen;
-    private javax.swing.JTextField txtNgayKham;
-    private javax.swing.JTextField txtNgaySinh;
-    private javax.swing.JTextField txtNgaySinh1;
+    private javax.swing.JTextField txtLichKham;
+    private javax.swing.JTextField txtMaBN;
     private javax.swing.JTextField txtSDT;
+    private javax.swing.JTextField txtSTT;
     private javax.swing.JTextField txtTimKiem;
     private javax.swing.JTextArea txtTrieuChung;
     // End of variables declaration//GEN-END:variables

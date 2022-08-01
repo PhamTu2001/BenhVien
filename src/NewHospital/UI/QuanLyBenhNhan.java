@@ -5,8 +5,8 @@
 package NewHospital.UI;
 
 import NewHospital.DAO.BenhNhanDAO;
-import NewHospital.Model.TT_BenhNhan;
 import java.util.List;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -20,7 +20,7 @@ public class QuanLyBenhNhan extends javax.swing.JInternalFrame {
      */
     public QuanLyBenhNhan() {
         initComponents();
-        init();
+        this.init();
     }
 
     /**
@@ -624,38 +624,30 @@ public class QuanLyBenhNhan extends javax.swing.JInternalFrame {
     BenhNhanDAO BNdao = new BenhNhanDAO();
     int row = -1;
     void init(){
-        //setLocationRelativeTo(null); // đưa cửa sổ ra giữa màn hình
-        this.fillTable(); // đổ dữ liệu nhân viên vào bảng
-        //this.updateStatus(); // cập nhật trạng thái form
+        this.fillTable();
     }
+    
     void fillTable() {
         DefaultTableModel model = (DefaultTableModel) tblBenhNhan.getModel();
         model.setRowCount(0);
         try {
-            List<TT_BenhNhan> list = BNdao.selectAll();
-            for (TT_BenhNhan bn : list) {
+            List<NewHospital.Model.TT_BenhNhan> list = BNdao.selectAll();
+            for (NewHospital.Model.TT_BenhNhan bn : list) {
                 Object[] row = {
                     bn.getMaBN(),
                     bn.getHoTen(),
-                    bn.getGioiTinh()?"Nam":"Nữ",
+                    bn.isGioiTinh(),
                     bn.getNgaySinh(),
                     bn.getSoDT(),
-                    bn.getEmail(),
-                    bn.getDiaChi(),
-                    bn.getTinhTrangBenh(),
-                    bn.getTrangThai()?"Đã khám":"Chưa khám",
-                    bn.getLoaiBN()?"Nội trú":"Ngoại trú"
-                    //nv.getVaiTro()?"Trưởng phòng":"Nhân viên"
+                    bn.getMail(),
+                    bn.getcMND(),
+                    bn.getDiaChi()
                 };
                 model.addRow(row);
             }
         } 
         catch (Exception e) {
-            this.alert(this, "Lỗi truy vấn dữ liệu!");
+            JOptionPane.showMessageDialog(this, e);
         }
-    }
-
-    private void alert(QuanLyBenhNhan aThis, String lỗi_truy_vấn_dữ_liệu) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

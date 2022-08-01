@@ -113,9 +113,9 @@
                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Component id="btnThem1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Component id="btnXoa2" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnXoa1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="btnSua2" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnSua1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="btnCuoi" min="-2" pref="75" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -149,8 +149,8 @@
                                   <Component id="btnDau" max="32767" attributes="0"/>
                               </Group>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="btnXoa2" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
-                                  <Component id="btnSua2" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="btnXoa1" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="btnSua1" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
                               </Group>
                               <Component id="btnThem1" min="-2" pref="42" max="-2" attributes="0"/>
                           </Group>
@@ -319,7 +319,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnThem1ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JToggleButton" name="btnXoa2">
+                <Component class="javax.swing.JToggleButton" name="btnXoa1">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="ff" type="rgb"/>
@@ -336,10 +336,10 @@
                     <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnXoa2ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnXoa1ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JToggleButton" name="btnSua2">
+                <Component class="javax.swing.JToggleButton" name="btnSua1">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="cc" red="66" type="rgb"/>
@@ -399,7 +399,7 @@
                                   <EmptySpace pref="67" max="32767" attributes="0"/>
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="txtEmail" min="-2" pref="245" max="-2" attributes="0"/>
+                                  <Component id="txtSTT" min="-2" pref="245" max="-2" attributes="0"/>
                               </Group>
                               <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
@@ -416,16 +416,16 @@
                               </Group>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtNgayKham" min="-2" pref="297" max="-2" attributes="0"/>
-                                      <Component id="txtNgaySinh" alignment="0" min="-2" pref="245" max="-2" attributes="0"/>
+                                      <Component id="txtLichKham" min="-2" pref="297" max="-2" attributes="0"/>
+                                      <Component id="txtCMND" alignment="0" min="-2" pref="245" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="btnThem" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                          <Component id="btnXoa1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnXoa" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="btnSua1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnSua" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="txtNgaySinh1" min="-2" pref="245" max="-2" attributes="0"/>
+                                      <Component id="txtMaBN" min="-2" pref="245" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
@@ -449,19 +449,19 @@
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="txtHoTen" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtSTT" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtNgaySinh" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCMND" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="txtSDT" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel2" alignment="3" max="32767" attributes="0"/>
-                              <Component id="txtNgaySinh1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMaBN" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -471,7 +471,7 @@
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtNgayKham" alignment="3" max="32767" attributes="0"/>
+                              <Component id="txtLichKham" alignment="3" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -487,8 +487,8 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="btnThem" alignment="1" min="-2" pref="37" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="btnXoa1" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
-                                  <Component id="btnSua1" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="btnXoa" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="btnSua" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
@@ -529,14 +529,14 @@
                     <Property name="text" type="java.lang.String" value="STT"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="txtEmail">
+                <Component class="javax.swing.JTextField" name="txtSTT">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="16" style="0"/>
                     </Property>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="txtNgaySinh">
+                <Component class="javax.swing.JTextField" name="txtCMND">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="16" style="0"/>
@@ -668,9 +668,9 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdoKhamTrucTiepActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JTextField" name="txtNgayKham">
+                <Component class="javax.swing.JTextField" name="txtLichKham">
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNgayKhamActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLichKhamActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel2">
@@ -682,7 +682,7 @@
                     <Property name="text" type="java.lang.String" value="M&#xe3; b&#x1ec7;nh nh&#xe2;n"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JToggleButton" name="btnXoa1">
+                <Component class="javax.swing.JToggleButton" name="btnXoa">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="ff" type="rgb"/>
@@ -699,10 +699,10 @@
                     <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnXoa1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnXoaActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JToggleButton" name="btnSua1">
+                <Component class="javax.swing.JToggleButton" name="btnSua">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="cc" red="66" type="rgb"/>
@@ -739,7 +739,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnThemActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JTextField" name="txtNgaySinh1">
+                <Component class="javax.swing.JTextField" name="txtMaBN">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="16" style="0"/>
